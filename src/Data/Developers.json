@@ -3,7 +3,7 @@
         "id": 1,
         "name": "LOREM IPSUM",
         "rank": "LOREM IPSUM",
-        "image": "https://www.linkpicture.com/q/Card-image.jpg",
+        "image": require("../../../assets/testimonial/sivaji.jpg"),
         "fb": "#",
         "linkdln": "#",
         "git": "#"
@@ -12,7 +12,7 @@
        "id": 2,
        "name": "LOREM IPSUM",
        "rank": "LOREM IPSUM",
-       "image": "https://www.linkpicture.com/q/Card-image.jpg",
+       "image": require("../../../assets/testimonial/sivaji.jpg"),
        "fb": "#",
        "linkdln": "#",
        "git": "#"
@@ -22,7 +22,7 @@
        "id": 3,
        "name": "LOREM IPSUM",
        "rank": "LOREM IPSUM",
-       "image": "https://www.linkpicture.com/q/Card-image.jpg",
+       "image": require("../../../assets/testimonial/sivaji.jpg"),
        "fb": "#",
        "linkdln": "#",
        "git": "#"
@@ -32,7 +32,7 @@
        "id": 4,
         "name": "LOREM IPSUM",
         "rank": "LOREM IPSUM",
-        "image": "https://www.linkpicture.com/q/Card-image.jpg",
+        "image": require("../../../assets/testimonial/sivaji.jpg"),
         "fb": "#",
         "linkdln": "#",
         "git": "#"   
@@ -41,7 +41,7 @@
        "id": 5,
        "name": "LOREM IPSUM",
        "rank": "LOREM IPSUM",
-       "image": "https://www.linkpicture.com/q/Card-image.jpg",
+       "image": require("../../../assets/testimonial/sivaji.jpg"),
        "fb": "#",
        "linkdln": "#",
        "git": "#"

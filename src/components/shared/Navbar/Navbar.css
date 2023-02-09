@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+.selected{
+  color: black !important;
+}
+
 .brand-logo{
   width: 3rem;
 }
@@ -53,10 +57,10 @@
 .links-nav a{
   transition: all .15s ease-in-out;
 }
-
+/* 
 .links-nav a:active {
   background-color: #224529 !important;
-}
+} */
 
 .links-nav a:hover{
   color: #1da1f2 !important;

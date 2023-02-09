@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import './testimonial.css'
 import { testimonials } from '../../../Data/TestimonialData';
-import quote from '../../../assets/testimonial/Quote.svg'
+// import quote from '../../../assets/testimonial/Quote.svg'
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
 
 const Testimonial = () => {
@@ -33,7 +33,8 @@ const Testimonial = () => {
                     </div>
                     <div className="content-testi">
                       <div className="quote">
-                        <img style={{ pointerEvents: 'none' }} src={quote} alt="" />
+                        <img style={{ pointerEvents: 'none' }} src={require('../../../assets/testimonial/Quote.svg').default} alt="" />
+                        {/* <img style={{ pointerEvents: 'none' }} src="../../../assets/testimonial/Quote.svg" alt="" /> */}
                       </div>
 
                       <div className="testi-al">
@@ -41,7 +42,8 @@ const Testimonial = () => {
                       </div>
 
                       <div className="quote quote-rotate">
-                        <img style={{ pointerEvents: 'none' }} src={quote} alt="" />
+                        {/* <img style={{ pointerEvents: 'none' }} src={quote} alt="" /> */}
+                        <img style={{ pointerEvents: 'none' }} src={require('../../../assets/testimonial/Quote.svg').default} alt="" />
                       </div>
 
                       <div className="speaker-details-testi">
